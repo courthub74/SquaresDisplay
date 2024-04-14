@@ -8,7 +8,53 @@
 // portrait
 @media only screen and (orientation: portrait) {
     .section {
-        display: none;
+        background-color: rgb(11, 11, 96);
+        height: 100vh;
+
+        // NavBar
+        .title_and_nav {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 10ch;
+            // background-color: aqua;
+            height: 14ch;
+            // Desktop Menu
+            .desktop_nav {
+                display: none;
+            }
+            // Mobile Menu
+            .mobile_nav {
+                #dots_menu {
+                    width: 3.5em;
+                }
+            }
+            // Title
+            .title {
+                color: white;
+                font-size: 2rem;
+            }
+        }
+        // Section of Squares
+        .squares {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5ch;
+            // background-color: aqua;
+            height: 80%;
+            .square {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: grey;
+                height: 25%;
+                width: 70%;
+                border-radius: 10px;
+            }
+        }
     }
 }
 
