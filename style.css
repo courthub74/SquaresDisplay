@@ -371,6 +371,67 @@
     width: 6em;
     height: 2em;
   }
+  .section_two {
+    background-color: rgb(5, 41, 5);
+    height: 100vh;
+  }
+  .section_two .title_and_nav_two {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50ch;
+    gap: 20ch;
+    height: 22vh;
+    width: 100%;
+  }
+  .section_two .title_and_nav_two .desktop_nav_two ul {
+    display: flex;
+    gap: 2em;
+  }
+  .section_two .title_and_nav_two .desktop_nav_two ul li {
+    list-style: none;
+  }
+  .section_two .title_and_nav_two .desktop_nav_two ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .section_two .title_and_nav_two .mobile_nav_two {
+    display: none;
+  }
+  .section_two .title_and_nav_two .title_two {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .section_two .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5ch;
+    height: 70%;
+  }
+  .section_two .circles .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+  }
+  .section_two .circles .circle .front_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 80);
+    height: 23vw;
+    width: 23vw;
+    border-radius: 50%;
+  }
+  .section_two .circles .circle .front_circle p {
+    color: wheat;
+  }
 }
 @media only screen and (min-width: 1500px) {
   .section {
@@ -426,6 +487,67 @@
     width: 10em;
     height: 4em;
   }
+  .section_two {
+    background-color: rgb(5, 41, 5);
+    height: 100vh;
+  }
+  .section_two .title_and_nav_two {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50ch;
+    gap: 30vw;
+    height: 22vh;
+    width: 100%;
+  }
+  .section_two .title_and_nav_two .desktop_nav_two ul {
+    display: flex;
+    gap: 2em;
+  }
+  .section_two .title_and_nav_two .desktop_nav_two ul li {
+    list-style: none;
+  }
+  .section_two .title_and_nav_two .desktop_nav_two ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .section_two .title_and_nav_two .mobile_nav_two {
+    display: none;
+  }
+  .section_two .title_and_nav_two .title_two {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .section_two .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5ch;
+    height: 70%;
+  }
+  .section_two .circles .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+  }
+  .section_two .circles .circle .front_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 80);
+    height: 23vw;
+    width: 23vw;
+    border-radius: 50%;
+  }
+  .section_two .circles .circle .front_circle p {
+    color: wheat;
+  }
 }
 @media only screen and (min-width: 1900px) {
   .section {
@@ -480,5 +602,66 @@
   .section .squares .square #mps {
     width: 10em;
     height: 4em;
+  }
+  .section_two {
+    background-color: rgb(5, 41, 5);
+    height: 100vh;
+  }
+  .section_two .title_and_nav_two {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50ch;
+    gap: 40vw;
+    height: 22vh;
+    width: 100%;
+  }
+  .section_two .title_and_nav_two .desktop_nav_two ul {
+    display: flex;
+    gap: 2em;
+  }
+  .section_two .title_and_nav_two .desktop_nav_two ul li {
+    list-style: none;
+  }
+  .section_two .title_and_nav_two .desktop_nav_two ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .section_two .title_and_nav_two .mobile_nav_two {
+    display: none;
+  }
+  .section_two .title_and_nav_two .title_two {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .section_two .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5ch;
+    height: 70%;
+  }
+  .section_two .circles .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+  }
+  .section_two .circles .circle .front_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 80);
+    height: 23vw;
+    width: 23vw;
+    border-radius: 50%;
+  }
+  .section_two .circles .circle .front_circle p {
+    color: wheat;
   }
 }/*# sourceMappingURL=style.css.map */
