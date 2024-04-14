@@ -5,7 +5,17 @@
   background-color: black;
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (orientation: portrait) {
+  .section {
+    display: none;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1199px) {
+  .section {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .section {
     background-color: rgb(11, 11, 96);
     height: 100vh;
@@ -15,8 +25,9 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    gap: 50ch;
+    gap: 20ch;
     height: 22vh;
+    width: 100%;
   }
   .section .title_and_nav .desktop_nav ul {
     display: flex;
@@ -41,7 +52,67 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3ch;
+    gap: 5ch;
+    height: 70%;
+  }
+  .section .squares .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 70%;
+    width: 20%;
+    border-radius: 10px;
+  }
+  .section .squares .square #first_one {
+    width: 4em;
+  }
+  .section .squares .square #r1 {
+    width: 4em;
+  }
+  .section .squares .square #mps {
+    width: 6em;
+    height: 2em;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .section {
+    background-color: rgb(11, 11, 96);
+    height: 100vh;
+  }
+  .section .title_and_nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50ch;
+    height: 22vh;
+    width: 100%;
+  }
+  .section .title_and_nav .desktop_nav ul {
+    display: flex;
+    gap: 2em;
+  }
+  .section .title_and_nav .desktop_nav ul li {
+    list-style: none;
+  }
+  .section .title_and_nav .desktop_nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .section .title_and_nav .mobile_nav {
+    display: none;
+  }
+  .section .title_and_nav .title {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .section .squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5ch;
     height: 70%;
   }
   .section .squares .square {
@@ -50,7 +121,7 @@
     align-items: center;
     background-color: grey;
     height: 75%;
-    width: 25%;
+    width: 23%;
     border-radius: 10px;
   }
   .section .squares .square #mps {

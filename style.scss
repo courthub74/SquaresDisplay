@@ -5,8 +5,23 @@
     }
 }
 
-// My Laptop
-@media only screen and (min-width: 1500px) {
+// portrait
+@media only screen and (orientation: portrait) {
+    .section {
+        display: none;
+    }
+}
+
+// landscape and larger tablets
+@media only screen and (min-width: 700px) and (max-width: 1199px) {
+    .section {
+        display: none;
+    }
+}
+
+
+// 1200
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
     // The Whole Section
     .section {
         background-color: rgb(11, 11, 96);
@@ -18,11 +33,13 @@
             flex-direction: row-reverse;
             justify-content: center;
             align-items: center;
-            gap: 50ch;
+            gap: 20ch;
             // background-color: aqua;
             height: 22vh;
+            width: 100%;
             // List Menu
             .desktop_nav {
+                // width: 100%;
                 // position the ul
                 ul {
                     display: flex;
@@ -44,6 +61,7 @@
             }
             // Title
             .title {
+                // width: 100%;
                 color: white;
                 font-size: 3rem;
                 font-weight: bold;
@@ -55,7 +73,88 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 3ch;
+            gap: 5ch;
+            // background-color: aqua;
+            // The squares will be a percentage of this
+            height: 70%;
+            // each square
+            .square {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: grey;
+                height: 70%;
+                width: 20%;
+                border-radius: 10px;
+                #first_one {
+                    width: 4em;
+                }
+                #r1 {
+                    width: 4em;
+                }
+                #mps {
+                    width: 6em;
+                    height: 2em;
+                }
+            }
+        }
+    }
+}
+
+// 1500
+@media only screen and (min-width: 1500px) {
+    // The Whole Section
+    .section {
+        background-color: rgb(11, 11, 96);
+        height: 100vh;
+
+        // NavBar
+        .title_and_nav {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 50ch;
+            // background-color: aqua;
+            height: 22vh;
+            width: 100%;
+            // List Menu
+            .desktop_nav {
+                // width: 100%;
+                // position the ul
+                ul {
+                    display: flex;
+                    gap: 2em;
+                    // style the list
+                    li {
+                        list-style: none;
+                        // style the links
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            // Mobile Menu (hide)
+            .mobile_nav {
+                display: none;
+            }
+            // Title
+            .title {
+                // width: 100%;
+                color: white;
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+
+        // Section for Squares
+        .squares {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5ch;
             // background-color: aqua;
             // The squares will be a percentage of this
             height: 70%;
@@ -66,14 +165,14 @@
                 align-items: center;
                 background-color: grey;
                 height: 75%;
-                width: 25%;
+                width: 23%;
                 border-radius: 10px;
-                #first_one {
+                // #first_one {
 
-                }
-                #r1 {
+                // }
+                // #r1 {
 
-                }
+                // }
                 #mps {
                     width: 10em;
                     height: 4em;
