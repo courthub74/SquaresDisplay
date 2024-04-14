@@ -38,7 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5ch;
+    gap: 2vh;
     height: 80%;
     margin-top: 0ch;
   }
@@ -62,7 +62,7 @@
   }
   .section_two {
     background-color: rgb(5, 41, 5);
-    height: 100vh;
+    height: 110vh;
   }
   .section_two .title_and_nav_two {
     display: flex;
@@ -144,7 +144,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3ch;
+    gap: 3vw;
     height: 70%;
     margin-top: -2ch;
   }

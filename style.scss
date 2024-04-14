@@ -50,7 +50,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 5ch;
+            gap: 2vh;
             // background-color: aqua;
             height: 80%;
             margin-top: 0ch;
@@ -78,7 +78,7 @@
     // Second Section
     .section_two {
         background-color: rgb(5, 41, 5);
-        height: 100vh;
+        height: 110vh;
 
         // NavBar
         .title_and_nav_two{
@@ -184,7 +184,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 3ch;
+            gap: 3vw;
             // background-color: aqua;
             height: 70%;
             margin-top: -2ch;
@@ -875,6 +875,8 @@
                 background-color: wheat;
                 height: 25vw;
                 width: 25vw;
+                // height: 75%;
+                // width: 25%;
                 border-radius: 50%;
                 .front_circle {
                     display: flex;
@@ -883,6 +885,8 @@
                     background-color: rgb(6, 6, 80);
                     height: 23vw;
                     width: 23vw;
+                    // height: 90%;
+                    // width: 90%;
                     border-radius: 50%;
                     p {
                         color: wheat;
