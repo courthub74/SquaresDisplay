@@ -160,8 +160,8 @@
             // background-color: aqua;
             height: 12ch;
             gap: 60ch;
-            gap: 55vw;
-            gap: 55%;
+            gap: 45vw;
+            // gap: 55%;
             // Desktop Menu
             .desktop_nav {
                 display: none;
@@ -194,9 +194,18 @@
                 justify-content: center;
                 align-items: center;
                 background-color: grey;
-                height: 80%;
-                width: 25%;
+                height: 75%;
+                width: 20%;
                 border-radius: 10px;
+                #first_one {
+                    width: 3em;
+                }
+                #r1 {
+                    width: 3em;
+                }
+                #mps {
+                    width: 5em;
+                }
             }
         }
     }
@@ -214,8 +223,8 @@
             // background-color: aqua;
             height: 12ch;
             gap: 60ch;
-            gap: 55vw;
-            gap: 55%;
+            gap: 45vw;
+            // gap: 55%;
             // Desktop Menu
             .desktop_nav_two {
                 display: none;
