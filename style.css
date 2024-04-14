@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+* body {
+  background-color: black;
+}
+
+@media only screen and (min-width: 1500px) {
+  .section {
+    background-color: rgb(11, 11, 96);
+    height: 100vh;
+  }
+  .section .title_and_nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50ch;
+    height: 22vh;
+  }
+  .section .title_and_nav .desktop_nav ul {
+    display: flex;
+    gap: 2em;
+  }
+  .section .title_and_nav .desktop_nav ul li {
+    list-style: none;
+  }
+  .section .title_and_nav .desktop_nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .section .title_and_nav .mobile_nav {
+    display: none;
+  }
+  .section .title_and_nav .title {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .section .squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3ch;
+    height: 70%;
+  }
+  .section .squares .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 75%;
+    width: 25%;
+    border-radius: 10px;
+  }
+  .section .squares .square #mps {
+    width: 10em;
+    height: 4em;
+  }
+}/*# sourceMappingURL=style.css.map */
