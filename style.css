@@ -5,7 +5,7 @@
   background-color: black;
 }
 
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 600px) {
   .section {
     background-color: rgb(11, 11, 96);
     height: 100vh;
@@ -47,7 +47,7 @@
     border-radius: 10px;
   }
 }
-@media only screen and (min-width: 700px) and (max-width: 1199px) {
+@media only screen and (min-width: 700px) and (max-width: 999px) {
   .section {
     background-color: rgb(11, 11, 96);
     height: 100vh;
@@ -58,7 +58,8 @@
     justify-content: center;
     align-items: center;
     height: 12ch;
-    gap: 55ch;
+    gap: 60ch;
+    gap: 55vw;
   }
   .section .title_and_nav .desktop_nav {
     display: none;
@@ -86,6 +87,63 @@
     height: 80%;
     width: 25%;
     border-radius: 10px;
+  }
+}
+@media only screen and (width: 810px) {
+  .section {
+    background-color: rgb(11, 11, 96);
+    height: 100vh;
+  }
+  .section .title_and_nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 15ch;
+    gap: 60ch;
+    gap: 45vw;
+  }
+  .section .title_and_nav .desktop_nav {
+    display: none;
+  }
+  .section .title_and_nav .mobile_nav #dots_menu {
+    width: 3.5em;
+  }
+  .section .title_and_nav .title {
+    color: white;
+    font-size: 3rem;
+  }
+  .section .squares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7ch;
+    height: 60%;
+    margin-top: 3ch;
+  }
+  .section .squares .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 25%;
+    width: 75%;
+    border-radius: 10px;
+  }
+  .section .squares .square #first_one {
+    width: 5em;
+  }
+  .section .squares .square #r1 {
+    width: 5em;
+  }
+  .section .squares .square #mps {
+    width: 6em;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
+  .section {
+    display: none;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
