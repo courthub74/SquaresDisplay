@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
 * {
   margin: 0;
 }
 * body {
   background-color: black;
+  font-family: "Inter", sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -16,17 +18,20 @@
     justify-content: center;
     align-items: center;
     gap: 10ch;
+    gap: 13vw;
+    gap: 20%;
     height: 14ch;
   }
   .section .title_and_nav .desktop_nav {
     display: none;
   }
   .section .title_and_nav .mobile_nav #dots_menu {
-    width: 3.5em;
+    width: 3em;
   }
   .section .title_and_nav .title {
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
   }
   .section .squares {
     display: flex;
@@ -35,7 +40,7 @@
     align-items: center;
     gap: 5ch;
     height: 80%;
-    margin-top: -2ch;
+    margin-top: -4ch;
   }
   .section .squares .square {
     display: flex;
@@ -60,6 +65,7 @@
     height: 12ch;
     gap: 60ch;
     gap: 55vw;
+    gap: 55%;
   }
   .section .title_and_nav .desktop_nav {
     display: none;
@@ -70,6 +76,7 @@
   .section .title_and_nav .title {
     color: white;
     font-size: 2.2rem;
+    font-weight: bold;
   }
   .section .squares {
     display: flex;
@@ -89,7 +96,7 @@
     border-radius: 10px;
   }
 }
-@media only screen and (width: 810px) {
+@media only screen and (width: 768px), (width: 810px) {
   .section {
     background-color: rgb(11, 11, 96);
     height: 100vh;
@@ -102,6 +109,7 @@
     height: 15ch;
     gap: 60ch;
     gap: 45vw;
+    gap: 40%;
   }
   .section .title_and_nav .desktop_nav {
     display: none;
@@ -143,7 +151,49 @@
 }
 @media only screen and (min-width: 1000px) and (max-width: 1199px) {
   .section {
+    background-color: rgb(11, 11, 96);
+    height: 100vh;
+  }
+  .section .title_and_nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10ch;
+    gap: 52vw;
+    gap: 50%;
+    height: 17ch;
+  }
+  .section .title_and_nav .desktop_nav {
     display: none;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .section .title_and_nav .mobile_nav #dots_menu {
+    width: 4em;
+  }
+  .section .title_and_nav .title {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+  }
+  .section .squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3ch;
+    height: 75%;
+    margin-top: -5ch;
+  }
+  .section .squares .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 75%;
+    width: 25%;
+    border-radius: 10px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
