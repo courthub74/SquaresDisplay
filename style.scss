@@ -10,6 +10,7 @@
 
 // portrait
 @media only screen and (max-width: 600px) {
+    // First Section
     .section {
         background-color: rgb(11, 11, 96);
         height: 100vh;
@@ -52,7 +53,7 @@
             gap: 5ch;
             // background-color: aqua;
             height: 80%;
-            margin-top: -4ch;
+            margin-top: 0ch;
             // Each Square
             .square {
                 display: flex;
@@ -62,6 +63,82 @@
                 height: 25%;
                 width: 70%;
                 border-radius: 10px;
+                #first_one {
+                    width: 3em;
+                }
+                #r1 {
+                    width: 3em;
+                }
+                #mps {
+                    width: 5em;
+                }
+            }
+        }
+    }
+    // Second Section
+    .section_two {
+        background-color: rgb(5, 41, 5);
+        height: 100vh;
+
+        // NavBar
+        .title_and_nav_two{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 10ch;
+            gap: 13vw;
+            gap: 20%;
+            // gap: 50vw;
+            // background-color: aqua;
+            height: 14ch;
+            // Desktop Menu
+            .desktop_nav_two {
+                display: none;
+            }
+            // Mobile Menu
+            .mobile_nav_two {
+                #dots_menu {
+                    width: 3em;
+                }
+            }
+            // Title
+            .title_two {
+                color: white;
+                font-size: 1.8rem;
+                font-weight: bold;
+            }
+        }
+
+        // The Circles
+        .circles {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // height: 60%;
+            gap: 2ch;
+            margin: 0ch 0 0 0;
+            .circle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 53vw;
+                height: 53vw;
+                background-color: wheat;
+                border-radius: 50%;
+                .front_circle {
+                    background-color: rgb(6, 6, 80);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50vw;
+                    height: 50vw;
+                    border-radius: 50%;
+                    p {
+                        color: white;
+                    }
+                }
             }
         }
     }
@@ -69,6 +146,7 @@
 
 // smartphone landscapes
 @media only screen and (min-width: 700px) and (max-width: 999px) {
+    // first section
     .section {
         background-color: rgb(11, 11, 96);
         height: 100vh;
@@ -119,6 +197,71 @@
                 height: 80%;
                 width: 25%;
                 border-radius: 10px;
+            }
+        }
+    }
+    // second section
+    .section_two {
+        background-color: rgb(5, 41, 5);
+        height: 100vh;
+
+        // NavBar
+        .title_and_nav_two {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            // background-color: aqua;
+            height: 12ch;
+            gap: 60ch;
+            gap: 55vw;
+            gap: 55%;
+            // Desktop Menu
+            .desktop_nav_two {
+                display: none;
+            }
+            // Menu Menu
+            .mobile_nav_two {
+                #dots_menu {
+                    width: 3.5em;
+                }
+            }
+            // Title
+            .title_two {
+                color: white;
+                font-size: 2.2rem;
+                font-weight: bold;
+            }
+        }
+        // The Circles
+        .circles {
+            display: flex;
+            // flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2ch;
+            height: 55%;
+            // background-color: aqua;
+            .circle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 13em;
+                height: 13em;
+                background-color: wheat;
+                border-radius: 50%;
+                .front_circle {
+                    background-color: rgb(6, 6, 80);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 12em;
+                    height: 12em;
+                    border-radius: 50%;
+                    p {
+                        color: white;
+                    }
+                }
             }
         }
     }
@@ -266,6 +409,7 @@
             justify-content: center;
             align-items: center;
             gap: 20ch;
+        
             // background-color: aqua;
             height: 22vh;
             width: 100%;
@@ -327,6 +471,87 @@
                 #mps {
                     width: 6em;
                     height: 2em;
+                }
+            }
+        }
+    }
+    // Second Section
+    .section_two {
+        background-color: rgb(5, 41, 5);
+        height: 100vh;
+
+        // NavBar
+        // NavBar
+        .title_and_nav_two {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 50ch;
+            gap: 20ch;
+            // background-color: aqua;
+            height: 22vh;
+            width: 100%;
+            // List Menu
+            .desktop_nav_two  {
+                // width: 100%;
+                // position the ul
+                ul {
+                    display: flex;
+                    gap: 2em;
+                    // style the list
+                    li {
+                        list-style: none;
+                        // style the links
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            // Mobile Menu (hide)
+            .mobile_nav_two  {
+                display: none;
+            }
+            // Title
+            .title_two  {
+                // width: 100%;
+                color: white;
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+
+        .circles {
+            // Section for Circles
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5ch;
+            // background-color: aqua;
+            // The squares will be a percentage of this
+            height: 70%;
+            // each circle
+            .circle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: wheat;
+                height: 25vw;
+                width: 25vw;
+                border-radius: 50%;
+                .front_circle {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgb(6, 6, 80);
+                    height: 23vw;
+                    width: 23vw;
+                    border-radius: 50%;
+                    p {
+                        color: wheat;
+                    }
                 }
             }
         }
@@ -413,6 +638,87 @@
             }
         }
     }
+    // Second Section
+    .section_two {
+        background-color: rgb(5, 41, 5);
+        height: 100vh;
+
+        // NavBar
+        // NavBar
+        .title_and_nav_two {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 50ch;
+            gap: 30vw;
+            // background-color: aqua;
+            height: 22vh;
+            width: 100%;
+            // List Menu
+            .desktop_nav_two  {
+                // width: 100%;
+                // position the ul
+                ul {
+                    display: flex;
+                    gap: 2em;
+                    // style the list
+                    li {
+                        list-style: none;
+                        // style the links
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            // Mobile Menu (hide)
+            .mobile_nav_two  {
+                display: none;
+            }
+            // Title
+            .title_two  {
+                // width: 100%;
+                color: white;
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+
+        .circles {
+            // Section for Circles
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5ch;
+            // background-color: aqua;
+            // The squares will be a percentage of this
+            height: 70%;
+            // each circle
+            .circle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: wheat;
+                height: 25vw;
+                width: 25vw;
+                border-radius: 50%;
+                .front_circle {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgb(6, 6, 80);
+                    height: 23vw;
+                    width: 23vw;
+                    border-radius: 50%;
+                    p {
+                        color: wheat;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // 1900
@@ -491,6 +797,87 @@
                 #mps {
                     width: 10em;
                     height: 4em;
+                }
+            }
+        }
+    }
+    // Second Section
+    .section_two {
+        background-color: rgb(5, 41, 5);
+        height: 100vh;
+
+        // NavBar
+        // NavBar
+        .title_and_nav_two {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 50ch;
+            gap: 40vw;
+            // background-color: aqua;
+            height: 22vh;
+            width: 100%;
+            // List Menu
+            .desktop_nav_two  {
+                // width: 100%;
+                // position the ul
+                ul {
+                    display: flex;
+                    gap: 2em;
+                    // style the list
+                    li {
+                        list-style: none;
+                        // style the links
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            // Mobile Menu (hide)
+            .mobile_nav_two  {
+                display: none;
+            }
+            // Title
+            .title_two  {
+                // width: 100%;
+                color: white;
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+
+        .circles {
+            // Section for Circles
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5ch;
+            // background-color: aqua;
+            // The squares will be a percentage of this
+            height: 70%;
+            // each circle
+            .circle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: wheat;
+                height: 25vw;
+                width: 25vw;
+                border-radius: 50%;
+                .front_circle {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgb(6, 6, 80);
+                    height: 23vw;
+                    width: 23vw;
+                    border-radius: 50%;
+                    p {
+                        color: wheat;
+                    }
                 }
             }
         }
