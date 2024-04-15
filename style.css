@@ -97,8 +97,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 53vw;
-    height: 53vw;
+    width: 48vw;
+    height: 48vw;
     background-color: wheat;
     border-radius: 50%;
   }
@@ -107,8 +107,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
-    height: 50vw;
+    width: 45vw;
+    height: 45vw;
     border-radius: 50%;
   }
   .section_two .circles .circle .front_circle p {
