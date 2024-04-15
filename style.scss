@@ -41,7 +41,7 @@
             // Title
             .title {
                 color: white;
-                font-size: 1.8rem;
+                font-size: 2rem;
                 font-weight: bold;
             }
         }
@@ -87,10 +87,7 @@
             flex-direction: row-reverse;
             justify-content: center;
             align-items: center;
-            gap: 10ch;
-            gap: 13vw;
             gap: 30%;
-            // gap: 50vw;
             // background-color: aqua;
             height: 14ch;
             // Desktop Menu
@@ -106,7 +103,7 @@
             // Title
             .title_two {
                 color: white;
-                font-size: 1.8rem;
+                font-size: 2rem;
                 font-weight: bold;
             }
         }
@@ -119,7 +116,7 @@
             align-items: center;
             // height: 60%;
             gap: 2ch;
-            margin: 0ch 0 0 0;
+            margin: 1ch 0 0 0;
             .circle {
                 display: flex;
                 justify-content: center;
@@ -145,7 +142,72 @@
         }
     }
     // Section Three
+    .section_three {
+        background-color: rgb(11, 11, 96);
+        height: 100vh;
 
+        // NavBar 
+        .title_and_nav_three {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 30%;
+            height: 14ch;
+            .desktop_nav_three {
+                display: none;
+            }
+            // Mobile Menu
+            .mobile_nav_three {
+                #dots_menu {
+                    width: 3em;
+                }
+            }
+            // Title
+            .title_three {
+                color: white;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+        }
+        // The Content
+        .three_words {
+            width: 100%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // background-color: aqua;
+            .three_paragraph {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 3vw;
+                // background-color: lightcoral;
+                width: 76%;
+                height: 100%;
+                margin-top: -5ch;
+                p {
+                    color: white;
+                }
+                #three_logo {
+                    width: 4em;
+                    margin: 1ch 0 1ch -30vh;
+                }
+                a {
+                    background-color: white;
+                    padding: 1em 2.5em 1em 2.5em;
+                    border-radius: 25px;
+                    text-decoration: none;
+                    color: rgb(11, 11, 96);
+                    font-weight: bold;
+                    margin: 5ch 0 0 -16vh;
+                }
+            }
+        }
+    }
 }
 
 // smartphone landscapes
