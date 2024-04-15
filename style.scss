@@ -196,14 +196,16 @@
                     width: 4em;
                     margin: 1ch 0 1ch -30vh;
                 }
-                a {
-                    background-color: white;
-                    padding: 1em 2.5em 1em 2.5em;
-                    border-radius: 25px;
-                    text-decoration: none;
-                    color: rgb(11, 11, 96);
-                    font-weight: bold;
+                .button {
                     margin: 5ch 0 0 -16vh;
+                    a {
+                        background-color: white;
+                        padding: 1em 2.5em 1em 2.5em;
+                        border-radius: 25px;
+                        text-decoration: none;
+                        color: rgb(11, 11, 96);
+                        font-weight: bold;
+                    }
                 }
             }
         }
@@ -373,26 +375,35 @@
             // background-color: aqua;
             width: 85%;
             margin: -2ch 0 0 6.5ch;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
             .three_paragraph {
                 color: white;
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 1em;
+                gap: 2ch;
+                // justify-content: left;
+                // align-items: center;
+                gap: 1.2em;
                 #three_logo {
                     width: 4em;
-                    margin: 0 0 0 -64ch;
+                    // margin: 0 0 0 -64ch;
                 }
-                a {
-                    background-color: white;
-                    padding: .5em 1.5em .5em 1.5em;   
-                    border-radius: 25px;
-                    text-decoration: none;
-                    color: rgb(11, 11, 96);
-                    margin-left: -51ch;
-                    font-weight: bold;
+                .button {
+                    margin: 1ch 0 0 0;
+                    a {
+                        background-color: white;
+                        padding: .5em 1.5em .5em 1.5em;   
+                        border-radius: 25px;
+                        text-decoration: none;
+                        color: rgb(11, 11, 96);
+                        // margin-left: -51ch;
+                        
+                        font-weight: bold;
+                    }
                 }
             }
         }
