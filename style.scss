@@ -422,7 +422,7 @@
             justify-content: center;
             align-items: center;
             gap: 20ch;
-        
+            gap: 25%;
             // background-color: aqua;
             height: 22vh;
             width: 100%;
@@ -432,7 +432,7 @@
                 // position the ul
                 ul {
                     display: flex;
-                    gap: 2em;
+                    gap: 1.5em;
                     // style the list
                     li {
                         list-style: none;
@@ -466,6 +466,7 @@
             // background-color: aqua;
             // The squares will be a percentage of this
             height: 70%;
+            margin-top: -5ch;
             // each square
             .square {
                 display: flex;
@@ -473,7 +474,7 @@
                 align-items: center;
                 background-color: grey;
                 height: 70%;
-                width: 20%;
+                width: 25%;
                 border-radius: 10px;
                 #first_one {
                     width: 4em;
@@ -501,7 +502,7 @@
             justify-content: center;
             align-items: center;
             gap: 50ch;
-            gap: 20ch;
+            gap: 25%;
             // background-color: aqua;
             height: 22vh;
             width: 100%;
@@ -511,7 +512,7 @@
                 // position the ul
                 ul {
                     display: flex;
-                    gap: 2em;
+                    gap: 1.5em;
                     // style the list
                     li {
                         list-style: none;
@@ -545,6 +546,7 @@
             // background-color: aqua;
             // The squares will be a percentage of this
             height: 70%;
+            margin-top: -7ch;
             // each circle
             .circle {
                 display: flex;
@@ -879,8 +881,7 @@
                 background-color: wheat;
                 height: 25vw;
                 width: 25vw;
-                // height: 75%;
-                // width: 25%;
+                
                 border-radius: 50%;
                 .front_circle {
                     display: flex;

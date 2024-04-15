@@ -332,12 +332,13 @@
     justify-content: center;
     align-items: center;
     gap: 20ch;
+    gap: 25%;
     height: 22vh;
     width: 100%;
   }
   .section .title_and_nav .desktop_nav ul {
     display: flex;
-    gap: 2em;
+    gap: 1.5em;
   }
   .section .title_and_nav .desktop_nav ul li {
     list-style: none;
@@ -360,6 +361,7 @@
     align-items: center;
     gap: 5ch;
     height: 70%;
+    margin-top: -5ch;
   }
   .section .squares .square {
     display: flex;
@@ -367,7 +369,7 @@
     align-items: center;
     background-color: grey;
     height: 70%;
-    width: 20%;
+    width: 25%;
     border-radius: 10px;
   }
   .section .squares .square #first_one {
@@ -390,13 +392,13 @@
     justify-content: center;
     align-items: center;
     gap: 50ch;
-    gap: 20ch;
+    gap: 25%;
     height: 22vh;
     width: 100%;
   }
   .section_two .title_and_nav_two .desktop_nav_two ul {
     display: flex;
-    gap: 2em;
+    gap: 1.5em;
   }
   .section_two .title_and_nav_two .desktop_nav_two ul li {
     list-style: none;
@@ -419,6 +421,7 @@
     align-items: center;
     gap: 5ch;
     height: 70%;
+    margin-top: -7ch;
   }
   .section_two .circles .circle {
     display: flex;
