@@ -19,7 +19,7 @@
     align-items: center;
     gap: 10ch;
     gap: 13vw;
-    gap: 20%;
+    gap: 30%;
     height: 14ch;
   }
   .section .title_and_nav .desktop_nav {
@@ -38,9 +38,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2vh;
+    gap: 4vh;
     height: 80%;
-    margin-top: 0ch;
+    margin-top: -4ch;
   }
   .section .squares .square {
     display: flex;
@@ -71,7 +71,7 @@
     align-items: center;
     gap: 10ch;
     gap: 13vw;
-    gap: 20%;
+    gap: 30%;
     height: 14ch;
   }
   .section_two .title_and_nav_two .desktop_nav_two {

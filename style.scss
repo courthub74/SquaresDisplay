@@ -24,7 +24,7 @@
             align-items: center;
             gap: 10ch;
             gap: 13vw;
-            gap: 20%;
+            gap: 30%;
             // gap: 50vw;
             // background-color: aqua;
             height: 14ch;
@@ -51,10 +51,10 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 2vh;
+            gap: 4vh;
             // background-color: aqua;
             height: 80%;
-            margin-top: 0ch;
+            margin-top: -4ch;
             // Each Square
             .square {
                 display: flex;
@@ -89,7 +89,7 @@
             align-items: center;
             gap: 10ch;
             gap: 13vw;
-            gap: 20%;
+            gap: 30%;
             // gap: 50vw;
             // background-color: aqua;
             height: 14ch;
@@ -126,6 +126,7 @@
                 align-items: center;
                 width: 53vw;
                 height: 53vw;
+                // height: 53vw;
                 background-color: wheat;
                 border-radius: 50%;
                 .front_circle {
