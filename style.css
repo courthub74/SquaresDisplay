@@ -301,6 +301,7 @@
     color: white;
     font-size: 1rem;
     width: 100%;
+    margin: -1.5ch 0 0 0;
   }
   .section_three .three_content .three_paragraph {
     display: flex;
