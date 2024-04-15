@@ -151,7 +151,7 @@
     gap: 3vw;
     width: 76%;
     height: 100%;
-    margin-top: -5ch;
+    margin-top: -6ch;
   }
   .section_three .three_words .three_paragraph p {
     color: white;
@@ -232,8 +232,6 @@
     justify-content: center;
     align-items: center;
     height: 12ch;
-    gap: 60ch;
-    gap: 45vw;
     gap: 60%;
   }
   .section_two .title_and_nav_two .desktop_nav_two {
@@ -274,6 +272,55 @@
   }
   .section_two .circles .circle .front_circle p {
     color: white;
+  }
+  .section_three {
+    background-color: rgb(11, 11, 96);
+    height: 105vh;
+  }
+  .section_three .title_and_nav_three {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 12ch;
+    gap: 60%;
+  }
+  .section_three .title_and_nav_three .desktop_nav_three {
+    display: none;
+  }
+  .section_three .title_and_nav_three .mobile_nav_three #dots_menu {
+    width: 3.5em;
+  }
+  .section_three .title_and_nav_three .title_three {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  .section_three .three_words {
+    width: 85%;
+    margin: -2ch 0 0 6.5ch;
+  }
+  .section_three .three_words .three_paragraph {
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  .section_three .three_words .three_paragraph #three_logo {
+    width: 4em;
+    margin: 0 0 0 -64ch;
+  }
+  .section_three .three_words .three_paragraph a {
+    background-color: white;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 25px;
+    text-decoration: none;
+    color: rgb(11, 11, 96);
+    margin-left: -51ch;
+    font-weight: bold;
   }
 }
 @media only screen and (width: 768px), (width: 810px) {
