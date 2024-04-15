@@ -308,7 +308,7 @@
     flex-direction: column;
     gap: 1ch;
     width: 80%;
-    margin: -1ch 0 0 -3ch;
+    margin: -1ch 0 0 -3.5ch;
   }
   .section_three .three_content .three_paragraph .image #three_logo {
     width: 3em;
