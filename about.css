@@ -71,6 +71,7 @@
     justify-content: center;
     align-items: center;
     gap: 60ch;
+    gap: 60%;
   }
   body .section_three .title_and_nav_three .desktop_nav_three {
     display: none;
@@ -263,6 +264,7 @@
     justify-content: center;
     align-items: center;
     gap: 45ch;
+    gap: 19.4%;
   }
   body .section_three .title_and_nav_three .desktop_nav_three ul {
     display: flex;
@@ -296,7 +298,7 @@
   body .section_three .three_paragraph .para_one {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     width: 80%;
   }
   body .section_three .three_paragraph .image #three_logo {
