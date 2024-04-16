@@ -124,6 +124,7 @@
   }
   body .section_three .title_and_nav_three {
     display: flex;
+    flex-direction: column;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
@@ -158,7 +159,6 @@
     flex-direction: column;
     justify-content: center;
     line-height: 2em;
-    margin: -3ch 0 0 11ch;
   }
   body .section_three .three_paragraph .para_one {
     color: white;

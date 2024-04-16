@@ -161,9 +161,12 @@
         .section_three {
             display: flex;
             flex-direction: column;
+            // background-color: yellow;
+            // This needs to set the margin tone for it all
             // NavBar and Title
             .title_and_nav_three {
                 display: flex;
+                flex-direction: column;
                 flex-direction: row-reverse;
                 justify-content: center;
                 align-items: center;
@@ -205,7 +208,7 @@
                 flex-direction: column;
                 justify-content: center;
                 line-height: 2em;
-                margin: -3ch 0 0 11ch;
+                // margin: -3ch 0 0 11ch;
                 // Words
                 .para_one {
                     color: white;
