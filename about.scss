@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+
+// portrait
+@media only screen and (orientation: portrait) {
+    body {
+        background-color: rgb(1, 1, 92);
+        .section_three {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            // NavBar and Title
+            .title_and_nav_three {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+                align-items: center;
+                gap: 14ch;
+                // Desktop
+                .desktop_nav_three {
+                    display: none;
+                }
+                // Mobile Nav
+                #dots_menu {
+                    width: 3em;
+                }
+                // Title
+                .title_three {
+                    color: white;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+            }
+            // Paragraphs
+            .three_paragraph {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                line-height: 1.5em;
+                margin: -2ch 0 0 5ch;
+                // Words
+                .para_one {
+                    color: white;
+                    font-family: 'Inter', sans-serif;
+                    width: 80%;
+                }
+                // Image
+                .image {
+                    #three_logo {
+                        width: 4em;
+                        margin: 0 0 0 -1.1ch;
+                    }
+                }
+                // Button
+                .button {
+                    margin-top: 5ch;
+                    a {
+                        background-color: white;
+                        padding: 1em 3em 1em 3em;
+                        border-radius: 25px;
+                        text-decoration: none;
+                        font-family: 'Inter', sans-serif;
+                        color: rgb(1, 1, 92);
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        // .section_four {
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: center;
+        //     align-items: center;
+        //     background-color: darkcyan;
+        //     height: 100vh;
+        // }
+    }
+}
+
+
+// landscape
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: rgb(133, 99, 55);
+        height: 130vh;
+        .section_three {
+            display: flex;
+            flex-direction: column;
+            // height: 100vh;
+            // NavBar and Title
+            .title_and_nav_three {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+                align-items: center;
+                gap: 60ch;
+                // background-color: yellow;
+                // Desktop
+                .desktop_nav_three {
+                    display: none;
+                }
+                // Mobile Nav
+                #dots_menu {
+                    width: 3em;
+                }
+                // Title
+                .title_three {
+                    color: white;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+            }
+            // Paragraphs
+            .three_paragraph {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                line-height: 1.5em;
+                margin: -3ch 0 0 9ch;
+                // Words
+                .para_one {
+                    color: white;
+                    font-family: 'Inter', sans-serif;
+                    width: 80%;
+                }
+                // Image
+                .image {
+                    #three_logo {
+                        width: 4em;
+                        margin: 0 0 0 -1.1ch;
+                    }
+                }
+                // Button
+                .button {
+                    margin-top: 2ch;
+                    a {
+                        background-color: white;
+                        padding: .8em 3em .8em 3em;
+                        border-radius: 25px;
+                        text-decoration: none;
+                        font-family: 'Inter', sans-serif;
+                        color: rgb(133, 99, 55);
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// desktop
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: darkgreen;
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    body {
+        background-color: darkgreen;
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    body {
+        background-color: darkgreen;
+        height: 100vh;
+    }
+}

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
+@media only screen and (orientation: portrait) {
+  body {
+    background-color: rgb(1, 1, 92);
+  }
+  body .section_three {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  body .section_three .title_and_nav_three {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 14ch;
+  }
+  body .section_three .title_and_nav_three .desktop_nav_three {
+    display: none;
+  }
+  body .section_three .title_and_nav_three #dots_menu {
+    width: 3em;
+  }
+  body .section_three .title_and_nav_three .title_three {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  body .section_three .three_paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5em;
+    margin: -2ch 0 0 5ch;
+  }
+  body .section_three .three_paragraph .para_one {
+    color: white;
+    font-family: "Inter", sans-serif;
+    width: 80%;
+  }
+  body .section_three .three_paragraph .image #three_logo {
+    width: 4em;
+    margin: 0 0 0 -1.1ch;
+  }
+  body .section_three .three_paragraph .button {
+    margin-top: 5ch;
+  }
+  body .section_three .three_paragraph .button a {
+    background-color: white;
+    padding: 1em 3em 1em 3em;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: rgb(1, 1, 92);
+    font-weight: bold;
+  }
+}
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: rgb(133, 99, 55);
+    height: 130vh;
+  }
+  body .section_three {
+    display: flex;
+    flex-direction: column;
+  }
+  body .section_three .title_and_nav_three {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 60ch;
+  }
+  body .section_three .title_and_nav_three .desktop_nav_three {
+    display: none;
+  }
+  body .section_three .title_and_nav_three #dots_menu {
+    width: 3em;
+  }
+  body .section_three .title_and_nav_three .title_three {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  body .section_three .three_paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5em;
+    margin: -3ch 0 0 9ch;
+  }
+  body .section_three .three_paragraph .para_one {
+    color: white;
+    font-family: "Inter", sans-serif;
+    width: 80%;
+  }
+  body .section_three .three_paragraph .image #three_logo {
+    width: 4em;
+    margin: 0 0 0 -1.1ch;
+  }
+  body .section_three .three_paragraph .button {
+    margin-top: 2ch;
+  }
+  body .section_three .three_paragraph .button a {
+    background-color: white;
+    padding: 0.8em 3em 0.8em 3em;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: rgb(133, 99, 55);
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: darkgreen;
+    height: 100vh;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  body {
+    background-color: darkgreen;
+    height: 100vh;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  body {
+    background-color: darkgreen;
+    height: 100vh;
+  }
+}/*# sourceMappingURL=about.css.map */
