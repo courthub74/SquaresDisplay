@@ -7,10 +7,671 @@
     }
 }
 
+// SMARTPHONES
 
-@media only screen and (min-width: 1200px) {
+// Portrait
+@media only screen and (orientation: portrait) {
+    .section_demo {
+        background-color: rgb(7, 7, 107);
+        height: 100vh;
+        .section_content {
+            display: flex;
+            flex-direction: column;
+            padding: 0 3em 0 3em;
+            .title_and_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 2em 0 0 0;
+                .title_demo {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    color: white;
+                    font-size: 2rem;
+                }
+                // Desktop Navbar
+                .desktop_nav_three {
+                    display: none;
+                }
+                // Mobile Navbar
+                .mobile_nav_three {
+                    #dots_menu {
+                        width: 3em;
+                    }
+                }
+            }
+            // The Paragraphs and Button
+            .three_paragraph {
+                display: flex;
+                flex-direction: column;
+                line-height: 1.5em;
+                margin: 2em 0 0 0;
+                 // The Paragraphs
+                .para_one {
+                    font-family: 'Inter', sans-serif;
+                    color: white;
+                    font-size: .9rem;
+                }
+                // The Brand
+                .image {
+                    display: flex;
+                    align-items: center;
+                    p {
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        color: white;
+                        font-size: .9rem;
+                    }
+                    #three_logo {
+                        width: 4em;
+                    }
+                }
+                // The Button
+                .button {
+                    margin: 5ch 0 0 0;
+                    a {
+                        background-color: white;
+                        color: rgb(7, 7, 107);
+                        padding: .5em 2em;
+                        border-radius: 25px;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Landscape
+@media only screen and (orientation: landscape) {
+    .section_demo {
+        background-color: rgb(90, 30, 8);
+        height: 100vh;
+        .section_content {
+            display: none;
+        }
+    }
+}
+
+
+// DESKTOPS
+
+// 1200
+// @media only screen and (min-width: 1200px) and (max-width: 1299px) {
+//     .section_demo {
+//         background-color: rgb(4, 65, 4);
+//         height: 100vh;
+//         .section_content {
+//             display: flex;
+//             flex-direction: column;
+//             gap: 5vh;
+//             // background-color: darkorange;
+//             padding: 0 5em 0 5em;
+//             height: 100%;
+//             // margin: 0 0 0 5em;
+//             // margin: 5ch 0 0 0;
+//             .title_and_nav {
+//                 display: flex;
+//                 justify-content: space-between;
+//                 align-items: center;
+//                 margin: 3em 0 0 0;
+//                 // background-color: darkorange;
+//                 // gap: 32%;
+//                 .title_demo {
+//                     font-family: 'Inter', sans-serif;
+//                     font-weight: bold;
+//                     color: white;
+//                     font-size: 3rem;
+//                 }
+//                 // Desktop Navbar
+//                 .desktop_nav_three {
+//                     // position: relative;
+//                     // left: 25em;
+//                     ul {
+//                         display: flex;
+//                         gap: 1.5ch;
+//                         li {
+//                             list-style: none;
+//                             a {
+//                                 color: white;
+//                                 font-family: 'Inter', sans-serif;
+//                                 text-decoration: none;
+//                                 font-weight: bold;
+//                                 font-size: .9rem;
+//                             }
+//                         }
+//                     }
+//                 }
+//                 // Mobile Navbar
+//                 .mobile_nav_three {
+//                     display: none;
+//                 }
+//             }
+//             // The Paragraphs and Button
+//             .three_paragraph {
+//                 display: flex;
+//                 flex-direction: column;
+//                 line-height: 1.8em;
+//                 gap: 3ch;
+//                 // width: 90%;
+//                 margin: 3ch 0 0 0;
+//                 // The Paragraphs
+//                 .para_one {
+//                     font-family: 'Inter', sans-serif;
+//                     color: white;
+//                     font-size: 1.1rem;
+//                 }
+//                 // The Brand
+//                 .image {
+//                     display: flex;
+//                     align-items: center;
+//                     p {
+//                         font-family: 'Inter', sans-serif;
+//                         color: white;
+//                         font-size: 1.1rem;
+//                     }
+//                     #three_logo {
+//                         width: 5em;
+//                     }
+//                 }
+//                 // The Button
+//                 .button {
+//                     margin: 5ch 0 0 0;
+//                     a {
+//                         background-color: white;
+//                         color: rgb(4, 65, 4);
+//                         padding: .5em 4em;
+//                         border-radius: 25px;
+//                         font-family: 'Inter', sans-serif;
+//                         font-weight: bold;
+//                         text-decoration: none;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// 1200
+@media only screen and (min-width: 1200px) and (max-width: 1899px){
     .section_demo {
         background-color: rgb(4, 65, 4);
         height: 100vh;
+        .section_content {
+            display: flex;
+            flex-direction: column;
+            gap: 5vh;
+            // background-color: darkorange;
+            padding: 0 5em 0 5em;
+            height: 100%;
+            // margin: 0 0 0 5em;
+            // margin: 5ch 0 0 0;
+            .title_and_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 3em 0 0 0;
+                // background-color: darkorange;
+                // gap: 32%;
+                .title_demo {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    color: white;
+                    font-size: 3rem;
+                }
+                // Desktop Navbar
+                .desktop_nav_three {
+                    // position: relative;
+                    // left: 25em;
+                    ul {
+                        display: flex;
+                        gap: 1.5ch;
+                        li {
+                            list-style: none;
+                            a {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                text-decoration: none;
+                                font-weight: bold;
+                                font-size: .9rem;
+                            }
+                        }
+                    }
+                }
+                // Mobile Navbar
+                .mobile_nav_three {
+                    display: none;
+                }
+            }
+            // The Paragraphs and Button
+            .three_paragraph {
+                display: flex;
+                flex-direction: column;
+                line-height: 1.8em;
+                gap: 3ch;
+                // width: 90%;
+                margin: 3ch 0 0 0;
+                // The Paragraphs
+                .para_one {
+                    font-family: 'Inter', sans-serif;
+                    color: white;
+                    font-size: 1.1rem;
+                }
+                // The Brand
+                .image {
+                    display: flex;
+                    align-items: center;
+                    p {
+                        font-family: 'Inter', sans-serif;
+                        color: white;
+                        font-size: 1.1rem;
+                    }
+                    #three_logo {
+                        width: 5em;
+                    }
+                }
+                // The Button
+                .button {
+                    margin: 5ch 0 0 0;
+                    a {
+                        background-color: white;
+                        color: rgb(4, 65, 4);
+                        padding: .5em 4em;
+                        border-radius: 25px;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
     }
 }
+
+// // 1300
+// @media only screen and (min-width: 1300px) and (max-width: 1399px) {
+//     .section_demo {
+//         background-color: rgb(56, 4, 56);
+//         height: 100vh;
+//         .section_content {
+//             display: flex;
+//             flex-direction: column;
+//             gap: 5vh;
+//             // background-color: darkorange;
+//             height: 100%;
+//             padding: 0 5em 0 5em;
+//             // margin: 0 0 0 5em;
+//             // margin: 5ch 0 0 0;
+//             .title_and_nav {
+//                 display: flex;
+//                 justify-content: space-between;
+//                 align-items: center;
+//                 margin: 3em 0 0 0;
+//                 // gap: 37%;
+//                 .title_demo {
+//                     font-family: 'Inter', sans-serif;
+//                     font-weight: bold;
+//                     color: white;
+//                     font-size: 3rem;
+//                 }
+//                 // Desktop Navbar
+//                 .desktop_nav_three {
+//                     // position: relative;
+//                     // left: 25em;
+//                     ul {
+//                         display: flex;
+//                         gap: 1.5ch;
+//                         li {
+//                             list-style: none;
+//                             a {
+//                                 color: white;
+//                                 font-family: 'Inter', sans-serif;
+//                                 text-decoration: none;
+//                                 font-weight: bold;
+//                                 font-size: .9rem;
+//                             }
+//                         }
+//                     }
+//                 }
+//                 // Mobile Navbar
+//                 .mobile_nav_three {
+//                     display: none;
+//                 }
+//             }
+//             // The Paragraphs and Button
+//             .three_paragraph {
+//                 display: flex;
+//                 flex-direction: column;
+//                 line-height: 1.8em;
+//                 gap: 3ch;
+//                 // width: 85%;
+//                 margin: 3ch 0 0 0;
+//                 // The Paragraphs
+//                 .para_one {
+//                     font-family: 'Inter', sans-serif;
+//                     color: white;
+//                     font-size: 1.1rem;
+//                 }
+//                 // The Brand
+//                 .image {
+//                     display: flex;
+//                     align-items: center;
+//                     p {
+//                         font-family: 'Inter', sans-serif;
+//                         color: white;
+//                         font-size: 1.2rem;
+//                     }
+//                     #three_logo {
+//                         width: 5em;
+//                     }
+//                 }
+//                 // The Button
+//                 .button {
+//                     margin: 5ch 0 0 0;
+//                     a {
+//                         background-color: white;
+//                         color: rgb(4, 65, 4);
+//                         color: rgb(56, 4, 56);
+//                         padding: .5em 4em;
+//                         border-radius: 25px;
+//                         font-family: 'Inter', sans-serif;
+//                         font-weight: bold;
+//                         text-decoration: none;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// // 1400
+// @media only screen and (min-width: 1400px) and (max-width: 1499px) {
+//     .section_demo {
+//         background-color: rgb(85, 7, 7);
+//         height: 100vh;
+//         .section_content {
+//             display: flex;
+//             flex-direction: column;
+//             gap: 5vh;
+//             // background-color: darkorange;
+//             height: 100%;
+//             margin: 0 0 0 5em;
+//             // margin: 5ch 0 0 0;
+//             .title_and_nav {
+//                 display: flex;
+//                 // justify-content: center;
+//                 align-items: center;
+//                 margin: 3em 0 0 0;
+//                 gap: 35%;
+//                 .title_demo {
+//                     font-family: 'Inter', sans-serif;
+//                     font-weight: bold;
+//                     color: white;
+//                     font-size: 3rem;
+//                 }
+//                 // Desktop Navbar
+//                 .desktop_nav_three {
+//                     // position: relative;
+//                     // left: 25em;
+//                     ul {
+//                         display: flex;
+//                         gap: 1.5ch;
+//                         li {
+//                             list-style: none;
+//                             a {
+//                                 color: white;
+//                                 font-family: 'Inter', sans-serif;
+//                                 text-decoration: none;
+//                                 font-weight: bold;
+//                                 font-size: .9rem;
+//                             }
+//                         }
+//                     }
+//                 }
+//                 // Mobile Navbar
+//                 .mobile_nav_three {
+//                     display: none;
+//                 }
+//             }
+//             // The Paragraphs and Button
+//             .three_paragraph {
+//                 display: flex;
+//                 flex-direction: column;
+//                 line-height: 1.8em;
+//                 gap: 3ch;
+//                 width: 85%;
+//                 margin: 3ch 0 0 0;
+//                 // The Paragraphs
+//                 .para_one {
+//                     font-family: 'Inter', sans-serif;
+//                     color: white;
+//                     font-size: 1.1rem;
+//                 }
+//                 // The Brand
+//                 .image {
+//                     display: flex;
+//                     align-items: center;
+//                     p {
+//                         font-family: 'Inter', sans-serif;
+//                         color: white;
+//                         font-size: 1.2rem;
+//                     }
+//                     #three_logo {
+//                         width: 5em;
+//                     }
+//                 }
+//                 // The Button
+//                 .button {
+//                     margin: 5ch 0 0 0;
+//                     a {
+//                         background-color: white;
+//                         color: rgb(4, 65, 4);
+//                         color: rgb(85, 7, 7);
+//                         padding: .5em 4em;
+//                         border-radius: 25px;
+//                         font-family: 'Inter', sans-serif;
+//                         font-weight: bold;
+//                         text-decoration: none;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// // 1500
+// @media only screen and (min-width: 1500px) and (max-width: 1899px) {
+//     .section_demo {
+//         background-color: rgb(85, 7, 7);
+//         background-color: rgb(5, 88, 88);
+//         height: 100vh;
+//         .section_content {
+//             display: flex;
+//             flex-direction: column;
+//             gap: 5vh;
+//             // background-color: darkorange;
+//             height: 100%;
+//             margin: 0 0 0 5em;
+//             // margin: 5ch 0 0 0;
+//             .title_and_nav {
+//                 display: flex;
+//                 // justify-content: center;
+//                 align-items: center;
+//                 margin: 3em 0 0 0;
+//                 gap: 35%;
+//                 .title_demo {
+//                     font-family: 'Inter', sans-serif;
+//                     font-weight: bold;
+//                     color: white;
+//                     font-size: 3rem;
+//                 }
+//                 // Desktop Navbar
+//                 .desktop_nav_three {
+//                     // position: relative;
+//                     // left: 25em;
+//                     ul {
+//                         display: flex;
+//                         gap: 1.5ch;
+//                         li {
+//                             list-style: none;
+//                             a {
+//                                 color: white;
+//                                 font-family: 'Inter', sans-serif;
+//                                 text-decoration: none;
+//                                 font-weight: bold;
+//                                 font-size: .9rem;
+//                             }
+//                         }
+//                     }
+//                 }
+//                 // Mobile Navbar
+//                 .mobile_nav_three {
+//                     display: none;
+//                 }
+//             }
+//             // The Paragraphs and Button
+//             .three_paragraph {
+//                 display: flex;
+//                 flex-direction: column;
+//                 line-height: 1.8em;
+//                 gap: 3ch;
+//                 width: 85%;
+//                 margin: 3ch 0 0 0;
+//                 // The Paragraphs
+//                 .para_one {
+//                     font-family: 'Inter', sans-serif;
+//                     color: white;
+//                     font-size: 1.1rem;
+//                 }
+//                 // The Brand
+//                 .image {
+//                     display: flex;
+//                     align-items: center;
+//                     p {
+//                         font-family: 'Inter', sans-serif;
+//                         color: white;
+//                         font-size: 1.2rem;
+//                     }
+//                     #three_logo {
+//                         width: 5em;
+//                     }
+//                 }
+//                 // The Button
+//                 .button {
+//                     margin: 5ch 0 0 0;
+//                     a {
+//                         background-color: white;
+//                         color: rgb(4, 65, 4);
+//                         color: rgb(5, 88, 88);
+//                         padding: .5em 4em;
+//                         border-radius: 25px;
+//                         font-family: 'Inter', sans-serif;
+//                         font-weight: bold;
+//                         text-decoration: none;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// 1900
+@media only screen and (min-width: 1900px){
+    .section_demo {
+        background-color: rgb(13, 107, 107);
+        height: 100vh;
+        .section_content {
+            display: flex;
+            flex-direction: column;
+            gap: 5vh;
+            // background-color: darkorange;
+            padding: 0 10em 0 10em;
+            height: 100%;
+            // margin: 0 0 0 5em;
+            // margin: 5ch 0 0 0;
+            .title_and_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 3em 0 0 0;
+                // background-color: darkorange;
+                // gap: 32%;
+                .title_demo {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    color: white;
+                    font-size: 3rem;
+                }
+                // Desktop Navbar
+                .desktop_nav_three {
+                    // position: relative;
+                    // left: 25em;
+                    ul {
+                        display: flex;
+                        gap: 1.5ch;
+                        li {
+                            list-style: none;
+                            a {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                text-decoration: none;
+                                font-weight: bold;
+                                font-size: .9rem;
+                            }
+                        }
+                    }
+                }
+                // Mobile Navbar
+                .mobile_nav_three {
+                    display: none;
+                }
+            }
+            // The Paragraphs and Button
+            .three_paragraph {
+                display: flex;
+                flex-direction: column;
+                line-height: 1.8em;
+                gap: 3ch;
+                // width: 90%;
+                margin: 5ch 0 0 0;
+                // The Paragraphs
+                .para_one {
+                    font-family: 'Inter', sans-serif;
+                    color: white;
+                    font-size: 1.1rem;
+                }
+                // The Brand
+                .image {
+                    display: flex;
+                    align-items: center;
+                    p {
+                        font-family: 'Inter', sans-serif;
+                        color: white;
+                        font-size: 1.1rem;
+                    }
+                    #three_logo {
+                        width: 5em;
+                    }
+                }
+                // The Button
+                .button {
+                    margin: 5ch 0 0 0;
+                    a {
+                        background-color: white;
+                        color: rgb(4, 65, 4);
+                        color: rgb(13, 107, 107);
+                        padding: .5em 4em;
+                        border-radius: 25px;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
