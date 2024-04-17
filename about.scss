@@ -90,7 +90,72 @@
         background-color: rgb(90, 30, 8);
         height: 100vh;
         .section_content {
-            display: none;
+            display: flex;
+            flex-direction: column;
+            padding: 0 2em 0 2em;
+            .title_and_nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 1em 0 0 0;
+                .title_demo {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    color: white;
+                    font-size: 2.2rem;
+                }
+                // Desktop Navbar
+                .desktop_nav_three {
+                    display: none;
+                }
+                // Mobile Navbar
+                .mobile_nav_three {
+                    #dots_menu {
+                        width: 3em;
+                    }
+                }
+            }
+            // The Paragraphs and Button
+            .three_paragraph {
+                display: flex;
+                flex-direction: column;
+                line-height: 1.2em;
+                margin: .5em 0 0 0;
+                 // The Paragraphs
+                .para_one {
+                    font-family: 'Inter', sans-serif;
+                    color: white;
+                    font-size: .9rem;
+                }
+                // The Brand
+                .image {
+                    display: flex;
+                    align-items: center;
+                    p {
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        color: white;
+                        font-size: .9rem;
+                    }
+                    #three_logo {
+                        width: 4em;
+                    }
+                }
+                // The Button
+                .button {
+                    margin: 3ch 0 0 0;
+                    a {
+                        background-color: white;
+                        color: rgb(90, 30, 8);
+                        padding: .5em 2em;
+                        border-radius: 25px;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        text-decoration: none;
+                        font-size: .8rem;
+                    }
+                }
+            }
         }
     }
 }
