@@ -85,7 +85,7 @@
 }
 
 // Landscape
-@media only screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) and (max-width: 1001px) {
     .section_demo {
         background-color: rgb(90, 30, 8);
         height: 100vh;
